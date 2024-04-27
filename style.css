@@ -1,0 +1,93 @@
+/*Header*/
+.header {
+    background-color: palevioletred;
+}
+
+.Nombre-de-pagina-panambi {
+    color: black;
+    background-color: pink;
+    font-size: 75px;
+    font-family: Arial;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration-line: underline;
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
+.Subtitulo-panambi {
+    color: black;
+    background-color: pink;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.Presentacion {
+    color: black;
+    font-size: 25px;
+    font-family: Arial;
+    font-style: italic;
+    text-align: center; 
+    width: 100%;
+    height: auto;
+    
+
+
+}
+
+
+/*Tabla de horarios*/
+
+.tabla-de-horarios {
+    color: black;
+    background-color: white;
+
+}
+
+.Dias {
+    color: purple;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Horarios {
+    color: plum;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+/*FOOTER*/
+.footer {
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: auto;
+    text-align: end;
+
+}
+
+/*FORMULARIO*/
+.Formulario-general {
+    background-color: azure;
+    color: black;
+    font-size: 25px;
+    font-family: Verdana;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    border-style: solid;
+    border-color: black;
+}
+
+/*BARRA DE NAVEGACION*/
+.barra-navegacion-inicio {
+    list-style: none;
+}

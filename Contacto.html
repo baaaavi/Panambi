@@ -1,35 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Panambi Tours: Agencia de Viajes para Mujeres Empoderadas</h1>
-        <p>¡Bienvenida a Panambi! Somos mucho más que una simple agencia de viajes; somos un refugio para mujeres que buscan reavivar su conexión con su esencia femenina, descubrir su fuerza interior y crear recuerdos inolvidables en compañía de otras mujeres extraordinarias.</p>
+    <header class="header">
+        <h1 class="Nombre-de-pagina-panambi">Panambi Tours</h1>
+        <h2 class="Subtitulo-panambi">Agencia de Viajes para Mujeres Empoderadas</h2>
+        <p class="Presentacion">¡Bienvenida a Panambi! Somos mucho más que una simple agencia de viajes; somos un
+            refugio para mujeres que
+            buscan reavivar su conexión con su esencia femenina, descubrir su fuerza interior y crear recuerdos
+            inolvidables en compañía de otras mujeres extraordinarias.</p>
         <nav>
-                <ul>
-                    <li><a href="./Contacto.html">Contacto</a></li>
-                    <li><a href="./Horariosdeatencion.html">Horarios de atencion</a>
-                    </li>
-                    <li>Nuestros destinos</li>
-                    <li>Nuestra misión</li>
-                </ul>
+            <ul class="barra-navegacion-inicio">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./Contacto.html">Contacto</a></li>
+                <li><a href="./Horariosdeatencion.html">Horarios de atencion</a></li>
+                <li>Nuestra misión</li>
+            </ul>
         </nav>
-        </header>
+    </header>
     <main>
-    <h2>Puedes contactarnos aquí</h2>
-<p>
-    <b>email:</b>panambitours@gmail.com<br>
-    <b>Telefono:</b> 11 6982 6211
-</p>
+        <h2>Puedes contactarnos aquí</h2>
+        <p>
+            <b>email:</b>panambitours@gmail.com<br>
+            <b>Telefono:</b> 11 6982 6211
+        </p>
 
-<a href="./index.html">Volver al inicio</a>
+        <h2 class="Formulario-general">Consultanos</h2>
+        <form class="Formulario-general" action="#" method="get">
+            <div class="Nombre-formulario">
+                <label for="CampodeNombre">Nombre:</label>
+                <input type="text" id="CampodeNombre" name="CampodeNombre">
+            </div>
+            <div>
+                <label for="CampodeApellido">Apellido:</label>
+                <input type="text" id="CampodeApellido" name="CampodeApellido">
+            </div>
+            <div>
+                <label for="CampodeCelular">Celular:</label>
+                <input type="number" id="CampodeCelular" name="CampodeCelular">
+            </div>
+            <div>
+                <label for="CampodeEmail">E-mail:</label>
+                <input type="email" id="CampodeEmail" name="CampodeEmail">
+            </div>
+            <div>
+               Mensaje:<br><textarea name="Consultanos" id="" cols="30" rows="10" maxlength="300"></textarea>
+            </div>
+            <input type="reset">
+            <input type="submit">
+        </form>
+
     </main>
 
-<footer>Página realizada por: <b>Bladimar Villegas</b></footer>
+    <footer class="footer">Página realizada por: <b>Bladimar Villegas</b></footer>
 </body>
+
 </html>
