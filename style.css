@@ -69,8 +69,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
 }
 
 .footer-lista .footer-parrafo li {
@@ -107,8 +106,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr
+    display: flex;
 }
 
 .barra-navegacion-inicio .barra-navegacion-lista li {
