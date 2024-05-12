@@ -72,9 +72,6 @@ background-color: #EDD8DD;
 }
 
 /*FOOTER*/
-.footer-lista {
-
-}
 
 .footer-lista .footer-parrafo {
     list-style: none;
@@ -112,8 +109,6 @@ background-color: #EDD8DD;
 }
 
 /*BARRA DE NAVEGACION*/
-.barra-navegacion-inicio {}
-
 
 .barra-navegacion-inicio .barra-navegacion-lista {
     list-style: none;
@@ -138,9 +133,6 @@ background-color: #EDD8DD;
 
 /* PAGINA CONTACTO */
 
-.contactanos {
- 
-}
 
 .titulo-contacto {
     color: black;
