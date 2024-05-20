@@ -80,24 +80,15 @@
 
 /*FOOTER*/
 
-.footer-lista .footer-parrafo {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.footer-lista .footer-parrafo li {
-    background-color: plum;
-    padding: 1em 1em;
-    border: 1px solid white;
-    color: white;
-    text-align: center;
-}
-
-.footer-lista .footer-parrafo li a {
-    color: white;
-    text-decoration: none;
+.footer {
+    background-color: black;
+    color: #D0EEEC;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
+    padding-top: 100px;
+    padding: 25px
 }
 
 
@@ -105,24 +96,46 @@
 
 /*Tabla de horarios*/
 
+
 .tabla-de-horarios {
     color: black;
-    background-color: white;
-
+    background-color: #F7DEBD;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 400px;
+    margin-bottom: 100px;
 }
 
 .Dias {
-    color: purple;
+    color: black;
     font-size: 30px;
     font-weight: bold;
+    padding: 30px;
 }
 
 .Horarios {
-    color: plum;
-    font-size: 15px;
-    font-style: oblique;
+    color: #D0EEEC;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    text-shadow: 3px 3px 3px black;
 }
 
+.escribenos-titulo {
+    font-size: 25px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    margin-left: 400px;
+}
+
+.subtitulos-tabla {
+    background-color: #FB8176;
+    font-size: 30px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
 
 /* ------------ PAGINA CONTACTO ----------- */
 
@@ -170,22 +183,25 @@
 /* NUESTROS VALORES */
 
 .nuestros-valores-section {
-
+    background-color: #F2B1AB;
+    float: right;
+    width: 400px;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
-    margin-left: 60px;
-    margin-right: 60px;
+    padding: 30px;
+    margin-top: 85px;
 }
 
 .nuestros-valores-titulo {
     color: black;
     font-size: 60px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 3px 3px 3px #F2B1AB;
+    text-shadow: 3px 3px 3px white;
     padding-top: 35px;
     text-align: center;
+    padding-bottom: 35px;
 }
 
 .subitulos-concepto {
@@ -202,28 +218,31 @@
     background-color: #F7DEBD;
     text-align: center;
     font-style: italic;
+    font-size: 20px;
     padding: 70px;
     font-weight: bold;
     text-shadow: 2px 2px #F2B1AB;
-    margin-top: 45px;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-bottom: 100px;
+    margin: 50px
 }
 
 /*NUESTROS SERVICIOS*/
 .dos-chicas {
-    float: left;
+    margin-left: 25px;
+    padding-bottom: 35px;
+    border-radius: 50%;
+
 }
 
 .section-servicios {
     background-color: #EDD8DD;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
-    
- 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 450px;
+    padding: 20px;
 }
 
 .nuestros-servicios-titulo {
@@ -232,20 +251,26 @@
     font-size: 60px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 3px 3px 3px #F2B1AB;
-    text-align: left;
+    text-align: center;
+    padding: 20px;
 }
 
 /* NUESTROS DESTINOS */
 
+.section-destinos {
+    margin-right: 450px;
+    margin-bottom: 100px;
+}
+
 .nuestros-destinos-titulo {
     background-color: #D0EEEC;
-    padding-bottom: 30px;
     color: black;
     font-size: 60px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 3px 3px 3px #F2B1AB;
-    padding-top: 40x;
     text-align: center;
+    padding: 30px;
+    margin-bottom: 50px;
 }
 
 .titulo-ciudad-bv {
@@ -253,4 +278,31 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
     color: black;
+
+}
+
+.parrafo-unete {
+    padding: 30px;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.integrantes-foto {
+    width: 100px;
+}
+
+
+.tabla-quienes-somos {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 50px;
+    font-size: 25px;
+}
+
+.resumen-sobre-nosotras {
+    font-size: 14px;
+    text-align: center;
 }
