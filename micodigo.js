@@ -1,3 +1,5 @@
+//TAREA 10//
+/*
 let nombre = "Bladimar";
 let apellido = "Villegas";
 
@@ -19,3 +21,4 @@ suma();
 console.log(sumatoria)
 
 console.log(resultado)
+*/
