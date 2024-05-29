@@ -145,7 +145,8 @@
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 3px 3px 3px #F2B1AB;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .datos-de-contacto {
@@ -290,7 +291,7 @@
 }
 
 .integrantes-foto {
-    width: 100px;
+    width: 135px;
 }
 
 
@@ -298,7 +299,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
-    padding-right: 50px;
+    padding-right: 30px;
     font-size: 25px;
     border: black;
     border-style:solid;

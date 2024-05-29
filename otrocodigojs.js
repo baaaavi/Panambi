@@ -97,3 +97,11 @@ while(bandera) {
 */
 
 
+let edadDelUsuario = prompt("¿Cual es tu edad?");
+
+if(edadDelUsuario >= 18){
+    alert("Bienvenid@ a la página");
+}else{
+    alert("Entras bajo tu responsabilidad")
+}
+
