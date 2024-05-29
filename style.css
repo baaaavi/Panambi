@@ -300,9 +300,16 @@
     padding-left: 30px;
     padding-right: 50px;
     font-size: 25px;
+    border: black;
+    border-style:solid;
 }
 
 .resumen-sobre-nosotras {
     font-size: 14px;
     text-align: center;
+}
+
+.video {
+    margin-left: 250px;
+    margin-bottom: 100px;
 }

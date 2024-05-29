@@ -22,3 +22,6 @@ console.log(sumatoria)
 
 console.log(resultado)
 */
+
+
+
